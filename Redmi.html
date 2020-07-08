@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    	<title>Contact Us </title>
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+    	<!-- FONTS -->     
+	  	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    	<!--Materialized CSS -->
+	  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+    	<!-- External CSS -->
+    	<link rel="stylesheet" type="text/css" href="css/style.css">	
+		<style>
+			
+		</style>
+  	</head>
+  	<body>
+	  	<div class="row navbar-fixed">
+	    	<nav class="transparent">
+		      	<div class="nav-wrapper">
+		        	<a href="index.html" class="navlink brand-logo center-left">The Mobile Shop</a>
+		        	<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons black-text">menu</i></a>
+		        	<ul id="nav-mobile" class="right hide-on-med-and-down">
+		        		<li><a class="navlink" href="index.html">Home</a></li>
+		        	  	<li><a href="AboutUs.html" class="navlink">About Us</a></li>
+			          	<li><a href="ContactUs.html" class="navlink">Contact Us</a></li>
+			          	<li><a href="SignUp.html" class="navlink">Login</a></li>
+			        </ul>
+			        <ul class="side-nav" id="mobile-demo">
+			          	<li><a href="index.html" class="left-align">The Mobile Shop</a></li>
+			          	<hr>
+			          	<li><a href="index.html" class="side_nav">Home</a></li>
+			          	<li><a href="AboutUs.html" class="side_nav">About Us</a></li>
+			          	<li><a href="ContactUs.html" class="side_nav">Contact Us</a></li>
+			          	<li><a href="SignUp.html" class="side_nav">Login</a></li>
+			        </ul>
+		      	</div>
+	    	</nav>
+	  	</div>
+	</body>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>           
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script> 
+    <script>
+    
+    	$(document).ready(function(){
+          $(".button-collapse").sideNav();
+        });
+	
+  		$(document).ready(function() {
+    		Materialize.updateTextFields();
+  		});
+    </script>
+</html>
